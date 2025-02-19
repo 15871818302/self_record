@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config",
+  "version": "1.0.0",
+  "description": "stylelint-config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "potato",
+  "license": "ISC"
+}
