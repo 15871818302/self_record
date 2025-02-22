@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "@self_spec/stylelint-config",
   "version": "1.0.0",
   "description": "stylelint-config",
   "main": "index.js",

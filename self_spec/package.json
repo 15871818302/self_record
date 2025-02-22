@@ -1,9 +1,14 @@
 {
   "name": "self_spec",
+  "private": true,
   "version": "1.0.0",
   "description": "self record",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lerna run dev --parallel",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "clean": "lerna clean && rm -rf node_modules",
+    "publish": "lerna publish"
   },
   "author": "potato",
   "license": "ISC",
@@ -12,7 +17,7 @@
     "husky": "^8.0.3",
     "lerna": "^6.6.2",
     "markdownlint": "^0.28.1",
-    "pnpm": "^8.6.0",
+    "pnpm": "^8.15.4",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
     "tslib": "^2.5.2",
@@ -29,5 +34,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
