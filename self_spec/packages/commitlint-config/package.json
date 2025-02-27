@@ -1,0 +1,32 @@
+{
+  "name": "@self_spec/commitlint-config",
+  "version": "1.0.0",
+  "description": "commitlint-config",
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "xiongshengzhi <1220718650@qq.com>",
+  "homepage": "http://index.js",
+  "license": "ISC",
+  "main": "lib/commitlint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15871818302/self_record.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@self_spec/commitlint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/15871818302/self_record/issues"
+  }
+}
